@@ -1,5 +1,6 @@
 /*DEFAULT CODE*/
 
+/*Local conteúdo da linha do tempo */
 class Content extends React.Component{
     render() {
         return (
@@ -22,10 +23,12 @@ class Content extends React.Component{
     }
 }
 
+/*Cabeçalho */
 class Header extends React.Component {
     render() {
         return (
             <div className="header">
+                {/*O menu foi desenhado com o css */}
                 <div className='menuIcon'>
                     <div className='dashTop'></div>
                     <div className='dashBottom'></div>
@@ -38,6 +41,7 @@ class Header extends React.Component {
         )
     }
 }
+/*Aqui é onde puxa todos os componentes anteriores */
 class App extends React.Component {
     render() {
         return (
