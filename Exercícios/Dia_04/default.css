@@ -7,7 +7,7 @@
   z-index: 2;
   width: 100%;
   top: 20px;
-  background: #fff;
+  background: #8a817c;
   border-radius: 3px;
   overflow: hidden;
   font-family: "Open Sans", Helvetica, sans-serif;
@@ -19,7 +19,7 @@
 }
 
 .demo .notificationsFrame .searchInput {
-  border: 10px solid red;
+  border: 10px solid #8a817c;
   box-sizing: border-box;
   position: absolute;
   top: 13px;
@@ -28,10 +28,10 @@
   height: 34px;
   border-radius: 17px;
   border: none;
-  background: #fff;
+  background: #8a817c;
   padding: 0 17px;
   font-size: 13px;
-  color: #666;
+  color: #f4f3ee;
   transition: all 0.3s ease-in-out;
   transform: translateX(15px);
   opacity: 0;
@@ -52,7 +52,7 @@
 .demo .notificationsFrame .header {
   position: relative;
   height: 60px;
-  background: #5f98cd;
+  background: #463F3A;
   padding-top: 0;
 }
 
@@ -68,7 +68,7 @@
 .demo .notificationsFrame .header .menuIcon:hover .dashTop,
 .demo .notificationsFrame .header .menuIcon:hover .dashBottom,
 .demo .notificationsFrame .header .menuIcon:hover .circle {
-  background: #fff;
+  background: #8a817c;
 }
 
 .demo .notificationsFrame .header .menuIcon .dashTop {
@@ -77,7 +77,7 @@
   height: 3px;
   top: 0;
   left: 0;
-  background: #b2daff;
+  background: #8a817c;
   border-radius: 3px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -89,7 +89,7 @@
   height: 3px;
   top: 0;
   left: 0;
-  background: #b2daff;
+  background: #8a817c;
   border-radius: 3px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -105,7 +105,7 @@
   border-radius: 4px;
   top: -2px;
   right: 0;
-  background: #b2daff;
+  background: #8a817c;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -113,7 +113,7 @@
 .demo .notificationsFrame .header .title {
   display: block;
   text-align: center;
-  color: #fff;
+  color: #f4f3ee;
   font-weight: 600;
   font-size: 15px;
   padding-top: 20px;
@@ -123,7 +123,7 @@
   position: absolute;
   z-index: 3;
   font-size: 21px;
-  color: #fff;
+  color: #f4f3ee;
   top: 18px;
   right: 20px;
   -webkit-transition: all 0.3s ease;
@@ -132,7 +132,7 @@
 }
 
 .demo .notificationsFrame .header .searchIcon:hover {
-  color: #fff;
+  color: #f4f3ee;
 }
 
 .demo .notificationsFrame .content {
@@ -146,7 +146,7 @@
   left: 40px;
   bottom: 0;
   width: 3px;
-  background: #ebebeb;
+  background: #BCB8B1;
 }
 
 .demo .notificationsFrame .content .item {
@@ -166,7 +166,7 @@
 }
 
 .demo .notificationsFrame .content .item:hover {
-  color: #5f98cd;
+  color: #f4f3ee;
   cursor: pointer;
 }
 
@@ -175,9 +175,9 @@
   position: absolute;
   height: 11px;
   width: 11px;
-  background: #fff;
-  border: 2px solid #5f98cd;
-  box-shadow: 0 0 0 3px #fff;
+  background: #f4f3ee;
+  border: 2px solid #463F3A;
+  box-shadow: 0 0 0 3px #f4f3ee;
   border-radius: 6px;
   top: 0;
   left: -20px;
@@ -242,7 +242,7 @@
   font-family: FontAwesome;
   position: absolute;
   font-size: 20px;
-  color: #ebebeb;
+  color: #463F3A;
   top: -50%;
   left: 100%;
   margin-left: 10px;
@@ -250,12 +250,12 @@
 }
 
 .demo .notificationsFrame .content .item .commentCount:hover:after {
-  color: lightblue;
+  color: #BCB8B1;
 }
 
 .demo .notificationsFrame .footer {
   position: relative;
-  background: #fff;
+  background: #f4f3ee;
   margin: auto;
   height: 30px;
   border-top: 1px solid #eee;
