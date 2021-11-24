@@ -1,3 +1,4 @@
+/*DEFAULT CODE*/
 const activitiesArray = [
     {
         timestamp: new Date().getTime(),
