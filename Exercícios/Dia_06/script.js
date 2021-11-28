@@ -25,7 +25,7 @@ class Tempo extends React.Component{
 
     constructor(props) {
         super(props);
-        this.state = this.getTime();
+        this.state = this.getTime(); //O this.state tem como atribuição o método getTime()
     }
     
 
@@ -36,16 +36,16 @@ class Tempo extends React.Component{
 
     setTimer(){
         clearTimeout(this.timeout);
-        this.timeout = setTimeout(this.updateTempo.bind(this), 1000);
+        this.timeout = setTimeout(this.updateTempo.bind(this)/*Pesquisar*/, 1000);
     }
 
-    getTime(){
+    getTime(){//Esse método retorna um objeto com quatro chaves.
         const horaAtual = new Date();
         return{
             hora: horaAtual.getHours(),
             minutos: horaAtual.getMinutes(),
             segundos: horaAtual.getSeconds(),
-            ampm: this.hora >= 12 ? 'pm' : 'am'
+            ampm: this.hora >= 12 ? 'pm' : 'am' //Determinando quando passou do meio dia e da meia noite
         }
     }
 
